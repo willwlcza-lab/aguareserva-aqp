@@ -1,0 +1,18 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> aguareserva-aqp@1.0.0 test
+> node --test src/services/api.test.js
+
+✔ una cuenta sin hogar recibe null sin lanzar un error (3.80975ms)
+✔ el registro del primer hogar conserva el token de la sesión autenticada (1.827801ms)
+✔ las listas se devuelven sin modificar su contenido (0.49914ms)
+✔ un error HTTP con respuesta null conserva el código y un mensaje útil (0.925983ms)
+✔ los mensajes de validación del servidor se conservan (0.588052ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 79.930426

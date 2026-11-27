@@ -1,0 +1,14 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> aguareserva-aqp@1.0.0 build
+> vite build
+
+vite v7.3.8 building client environment for production...
+transforming...
+✓ 1609 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.61 kB │ gzip:   0.40 kB
+dist/assets/index-DYiQI5R3.css  286.03 kB │ gzip:  46.91 kB
+dist/assets/index-BFPmroR9.js   490.64 kB │ gzip: 150.95 kB
+✓ built in 2.89s

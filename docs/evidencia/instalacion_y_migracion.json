@@ -1,0 +1,24 @@
+{
+  "fecha": "2026-11-26T03:40:06.223283+00:00",
+  "instalacion_desde_vacia": "correcta",
+  "migracion_repetida": "correcta",
+  "actualizacion_desde_avance": "conserva UUID, cuenta, hogar, recipiente, saldo y movimiento",
+  "respaldo_inicial": "restauración comprobada, sin usuarios ni datos personales",
+  "postgresql": "16.2",
+  "revision": "fuentes20261125",
+  "tablas": [
+    "alembic_version",
+    "alertas_hogar",
+    "ejecuciones_sincronizacion",
+    "eventos_auditoria",
+    "fuentes_externas",
+    "hogares",
+    "limites_intentos",
+    "movimientos",
+    "planes",
+    "publicaciones_externas",
+    "recipientes",
+    "sesiones",
+    "usuarios"
+  ]
+}

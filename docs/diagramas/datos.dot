@@ -1,0 +1,14 @@
+digraph Datos {
+ graph[rankdir=TB,bgcolor="#f5fafb",pad=".35",ranksep=".65",nodesep=".35"];
+ node[shape=box,style="rounded,filled",fillcolor="#e5f5f5",color="#148d9a",fontname="DejaVu Sans",fontsize=12];
+ edge[color="#466b7a",fontname="DejaVu Sans",fontsize=10];
+ usuarios[label="usuarios"];hogares[label="hogares"];recipientes[label="recipientes"];movimientos[label="movimientos"];planes[label="planes"];
+ fuentes[label="fuentes_externas",fillcolor="#fff1dc"];publicaciones[label="publicaciones_externas",fillcolor="#fff1dc"];alertas[label="alertas_hogar"];
+ usuarios->hogares[label=" 1 hogar por cuenta"];
+ hogares->recipientes[label=" varios recipientes"];
+ recipientes->movimientos[label=" historial de litros"];
+ hogares->planes[label=" cálculos guardados"];
+ fuentes->publicaciones[label=" publica / recopila"];
+ hogares->alertas[label=" recibe"];
+ publicaciones->alertas[label=" aviso relacionado"];
+}

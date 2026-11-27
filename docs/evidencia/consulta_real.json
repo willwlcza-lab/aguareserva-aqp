@@ -1,0 +1,38 @@
+{
+  "fecha_verificacion": "2026-11-26T03:40:06.360225+00:00",
+  "fuentes": [
+    {
+      "nombre": "Sedapar · Gob.pe",
+      "tipo": "oficial",
+      "url": "https://www.gob.pe/institucion/sedapar/noticias",
+      "ultimo_exito": "2026-11-25T17:48:32.068113-05:00",
+      "error": "",
+      "registros": 10
+    },
+    {
+      "nombre": "Cortedeagua.net.pe · cortes",
+      "tipo": "complementaria",
+      "url": "https://cortedeagua.net.pe/arequipa/",
+      "ultimo_exito": "2026-11-25T17:48:38.964878-05:00",
+      "error": "",
+      "registros": 62
+    },
+    {
+      "nombre": "Cortedeagua.net.pe · cisternas",
+      "tipo": "complementaria",
+      "url": "https://cortedeagua.net.pe/arequipa/",
+      "ultimo_exito": "2026-11-25T17:48:39.159260-05:00",
+      "error": "",
+      "registros": 5
+    },
+    {
+      "nombre": "Manos Unidas",
+      "tipo": "ong",
+      "url": "https://www.manosunidas.org/que-hacemos/agua",
+      "ultimo_exito": "2026-11-25T17:48:46.656570-05:00",
+      "error": "",
+      "registros": 1
+    }
+  ],
+  "nota": "Consulta HTTP real; distinta de las pruebas con muestras. El número de registros puede cambiar en futuras consultas."
+}

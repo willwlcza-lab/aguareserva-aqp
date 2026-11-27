@@ -1,0 +1,18 @@
+digraph AguaReserva {
+ graph [rankdir=TB,bgcolor="#f5fafb",pad="0.35",nodesep="0.3",ranksep="0.6",fontname="DejaVu Sans"];
+ node [shape=box,style="rounded,filled",fillcolor="#e5f5f5",color="#148d9a",fontname="DejaVu Sans",fontsize=12,margin="0.18,0.12"];
+ edge [color="#466b7a",fontname="DejaVu Sans",fontsize=10];
+ ui[label="React\nFormularios y resultados"];
+ api[label="FastAPI · Python\nSesiones, rutas y validación"];
+ service[label="Servicios y repositorios\nReglas, cálculos y consultas"];
+ db[label="PostgreSQL\nTablas en español",shape=cylinder,fillcolor="#d7eeeb"];
+ scheduler[label="Sincronizador Python\nConsulta inicial y periódica"];
+ adapters[label="Adaptadores\nSedapar · Recopilador · ONG"];
+ sources[label="Fuentes públicas\nHTML y JSON",fillcolor="#fff1dc",color="#c99131"];
+ ui->api[label=" Solicitud con sesión"];
+ api->service[label=" Validar y operar"];
+ service->db[label=" Transacción"];
+ scheduler->adapters[label=" Consultar"];
+ adapters->sources[label=" Leer publicaciones"];
+ adapters->service[label=" Datos normalizados"];
+}

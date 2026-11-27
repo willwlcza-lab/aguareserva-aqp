@@ -1,0 +1,16 @@
+{
+  "estado": "correcto",
+  "pruebas": [
+    "registro e ingreso por interfaz",
+    "registro hogar y catálogo de distritos",
+    "recipiente y saldo inicial",
+    "evaluación de corte futuro y plan guardado",
+    "abastecimiento sin coordenadas y filtro de 29 distritos",
+    "fuentes y ONG",
+    "revisión administrativa y coordenadas de muestra",
+    "mapa Leaflet con punto de muestra verificado para la prueba",
+    "navegación móvil sin desborde horizontal"
+  ],
+  "errores_javascript": [],
+  "datos": "Cuenta y publicaciones sintéticas en base exclusiva de pruebas; mapa no representa un punto real."
+}
